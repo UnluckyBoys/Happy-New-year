@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(new\ yaer.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+}
+
+.new{
+    font-family: "Inspiration", serif;
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+p {
+    font-size: 15px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box small{
+    font-size: 11px;
+    
+    
+}
+
+
+@media (min-width:570px){
+    p {
+    font-size: 18px;
+}
+    .new{
+     
+    font-size: 100px;
+
+}
+
+    .box{
+    width: 100px;
+    height: 100px;
+    
+}
+   .box h2{
+      font-size: 30px;
+    
+}
+
+   .box small{
+      font-size: 17px;
+    
+    
+}
+
+}
+
+@media (min-width:770px){
+    
+    p {
+    font-size: 25px;
+}
+    .new{
+     
+    font-size: 150px;
+
+}
+    .box{
+    width: 150px;
+    height: 150px;
+    
+}
+
+   .box h2{
+      font-size: 50px;
+    
+}
+
+   .box small{
+      font-size: 20px;
+    
+    
+}
+    
+}
